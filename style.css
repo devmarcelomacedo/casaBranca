@@ -53,7 +53,7 @@ body {
 
 .conteudo-principal {
     display: flex;
-    margin-left: 30px;
+    margin-right: 30px;
     flex-direction: row;
     align-items: center;
     justify-content: space-around;
@@ -240,7 +240,7 @@ body {
     .conteudo-principal {
         display: flex;
         flex-direction: column;
-        margin-left: 30px;
+        margin-right: 30px;
         width: 600px;
         height: 600px;
     }
