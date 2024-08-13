@@ -157,6 +157,6 @@ body {
 
 .coluna {
     display: flex;
-   gap: 10px
-   ;
+   margin: auto;
+   gap: 10px;
 }
