@@ -139,7 +139,7 @@ body {
 .rodape {
     gap: 15px;
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     padding: 32px;
     border-top: 0.4px solid #fff2e7;
    
@@ -155,6 +155,8 @@ body {
    box-shadow: 4px 5px 4px rgba(0, 0, 0, 0.589);
 }
 
-@media
-
-
+.coluna {
+    display: flex;
+   gap: 10px
+   ;
+}
