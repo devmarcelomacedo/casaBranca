@@ -190,4 +190,37 @@ body {
         
     }
 
+    .rodape {
+        display: flex;
+        flex-direction: column;
+        height: 600px;
+        width: 600px;
+    }
+
+    .rodape-imagem {
+        display: flex;
+        flex-direction: column;
+        height: 600px;
+        width: 600px;
+    }
+
+    .conteudo-secundario {
+        display: flex;
+         flex-direction: column;
+         width: 300px;
+    }
+
+    .conteudo-principal-escrito-titulo {
+        display: flex;
+        flex-direction: column;
+        height: 500px;
+        width: 500px;
+    }
+
+    .conteudo-principal-escrito {
+        display: flex;
+        flex-direction: column;
+        width: 600px;
+    }
+
 }
