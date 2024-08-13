@@ -182,41 +182,4 @@ body {
         flex-direction: column;
     }
 
-    .cabecalho-menu-item {
-        width: 300px;
-        display: flex;
-        flex-direction: column;
-    }
-
-    .conteudo {
-        width: 470px;
-        display: flex;
-        flex-direction: column;
-
-    }
-
-    .rodape {
-        display: flex;
-        flex-direction: column;
-        height: 300px;
-        width: 300px;
-    }
-
-    .rodape-imagem {
-        display: flex;
-        flex-direction: column;
-        height: 300px;
-        width: 300px;
-    }
-
-    .conteudo-secundario {
-        display: flex;
-        flex-direction: column;
-        text-align: center;
-        width: 300px;
-    }
-
-  
-
- 
 }
