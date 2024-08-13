@@ -169,17 +169,6 @@ body {
     gap: 10px;
 }
 
-@media (max-width 369px) {
-    .cabecalho {
-        height: 300px;
-        width: 300px;
-    }
-
-    .cabecalho-imagem {
-        height: 300px;
-        width: 300px;
-        display: flex;
-        flex-direction: column;
-    }
-
+@media (max-width:360px) {
+ 
 }
