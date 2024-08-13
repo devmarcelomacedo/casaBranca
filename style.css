@@ -6,25 +6,24 @@
     text-decoration: none;
     list-style: none;
     border: none
-
 }
 
 @import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
 
 body {
     font-size: 100%;
-    background: #0048F8 ;
+    background: #0048F8;
 }
- 
+
 
 .cabecalho {
-  
+
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: space-around;
     padding: 24px;
-   
+
 }
 
 .cabecalho-imagem {
@@ -50,9 +49,7 @@ body {
 
 
 
-.conteudo {
-   
-}
+.conteudo {}
 
 .conteudo-principal {
     display: flex;
@@ -69,6 +66,7 @@ body {
 
 .conteudo-principal-escrito-titulo {
     font-family: "Righteous", cursive;
+    margin-left: 30px;
     font-weight: 600;
     font-size: 64px;
     color: #FFF2E7;
@@ -77,12 +75,14 @@ body {
 
 .conteudo-principal-subtitulo {
     font-family: "Sarala", sans-serif;
+    margin-left: 30px;
     color: #ECD6C4;
     font-weight: 400;
     font-size: 24px;
 }
 
 .conteudo-principal-escrito-botao {
+    margin-left: 20px;
     font-family: "Sarala", sans-serif;
     background-color: #ECD6C4;
     Width: 185px;
@@ -135,6 +135,7 @@ body {
 
 .conteudo-secundario-paragrafo {
     font-family: "sarala";
+    text-align: center;
     font-size: 24px;
     font-weight: 300;
     text-align: center;
@@ -147,24 +148,25 @@ body {
     flex-direction: column;
     padding: 32px;
     border-top: 0.4px solid #fff2e7;
-   
-   
+
+
 }
 
 .rodape-imagem {
     border-radius: 15px;
-   height: 150px;
-   width: 200px;
-   display: block;
-   margin: 0 auto;
-   box-shadow: 4px 5px 4px rgba(0, 0, 0, 0.589);
+    height: 250px;
+    width: 300px;
+    display: block;
+    margin-left: 50px;
+    margin-right: 50px;
+    box-shadow: 4px 5px 4px rgba(0, 0, 0, 0.589);
 }
 
 .coluna {
     display: flex;
-   margin: auto;
-   text-align: center;
-   gap: 10px;
+    margin: auto;
+    text-align: center;
+    gap: 10px;
 }
 
 @media (max-width 1000px) {
@@ -179,6 +181,7 @@ body {
         display: flex;
         flex-direction: column;
     }
+
     .cabecalho-menu-item {
         display: flex;
         flex-direction: column;
@@ -187,7 +190,7 @@ body {
     .conteudo {
         display: flex;
         flex-direction: column;
-        
+
     }
 
     .rodape {
@@ -206,8 +209,10 @@ body {
 
     .conteudo-secundario {
         display: flex;
-         flex-direction: column;
-         width: 300px;
+        flex-direction: column;
+        text-align: center;
+        margin-left: 30px;
+        width: 300px;
     }
 
     .conteudo-principal-escrito-titulo {
