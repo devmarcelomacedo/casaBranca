@@ -196,41 +196,40 @@ body {
     .rodape {
         display: flex;
         flex-direction: column;
-        height: 600px;
-        width: 600px;
+        height: 300px;
+        width: 300px;
     }
 
     .rodape-imagem {
         display: flex;
         flex-direction: column;
-        height: 600px;
-        width: 600px;
+        height: 300px;
+        width: 300px;
     }
 
     .conteudo-secundario {
         display: flex;
         flex-direction: column;
         text-align: center;
-        margin-left: 30px;
         width: 300px;
     }
 
     .conteudo-principal-escrito-titulo {
         display: flex;
         flex-direction: column;
-        height: 500px;
-        width: 500px;
+        height: 300px;
+        width: 300px;
     }
 
     .conteudo-principal-escrito {
         display: flex;
         flex-direction: column;
-        width: 600px;
+        width: 300px;
     }
 
     .conteudo-secundario-paragrafo {
-        width: 500px;
-        height: 500px;
+        width: 300px;
+        height: 300px;
         display: flex;
         flex-direction: column;
         text-align: center;
