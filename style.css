@@ -15,7 +15,7 @@ body {
     font-size: 100%;
     background: #0048F8 ;
 }
-
+ 
 
 .cabecalho {
   
@@ -166,4 +166,23 @@ body {
    margin: auto;
    text-align: center;
    gap: 10px;
+}
+
+@media (max-width 1000px) {
+    .cabecalho {
+        height: 300px;
+        width: 300px;
+    }
+
+    .cabecalho-imagem {
+        height: 300px;
+        width: 300px;
+        display: flex;
+        flex-direction: column;
+    }
+    .cabecalho-menu-item {
+        display: flex;
+        flex-direction: column;
+    }
+
 }
