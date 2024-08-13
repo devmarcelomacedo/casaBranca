@@ -228,4 +228,12 @@ body {
         width: 600px;
     }
 
+    .conteudo-secundario-paragrafo {
+        width: 500px;
+        height: 500px;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+
 }
