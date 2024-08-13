@@ -158,5 +158,6 @@ body {
 .coluna {
     display: flex;
    margin: auto;
+   text-align: center;
    gap: 10px;
 }
